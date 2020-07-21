@@ -1,0 +1,61 @@
+/*Reset margenes*/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/*GENERAL STYLES*/
+.nav{
+    background: red;
+    float: left;
+    width: 100%;
+}
+.main{
+    background-color: #ccc;
+}
+.lista, .titulo{
+    display:inline-block;
+}
+
+ul>li{
+    display: inline-block;
+    width: 30%;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+.titulo{
+    width:50%;
+    float:left;
+    font-size: 2.5em;
+}
+.lista{
+    width: 50%;
+    float: left;
+}
+
+.subtitulo{
+    font-size: 2em;
+}
+
+
+/*PRODUCTO.html*/
+
+.fila{
+    margin-bottom: 2em;
+    clear: both;
+    height: 300px;
+}
+.imagen{
+    height: 300px;
+    background-color: red;
+    width: 50%;
+    padding-left: 25%;
+    float: left;
+}
+.descripcion{
+    width: 49%;
+    float: left;
+}
